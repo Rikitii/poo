@@ -30,7 +30,7 @@ class Moto extends Vehiculo
         $this->cilindrada = $cilindrada;
     }
 
-    #[override]
+
     public function mostrarInfo(){
         return parent::mostrarInfo() . "| cilindrada:
         {$this->cilindrada} cc.";
